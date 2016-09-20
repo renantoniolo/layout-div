@@ -1,0 +1,44 @@
+/* folha de stylos do index.html */
+/* #ID's são usadas para estruturas do esqueleto da pagina e são aproveitadas somente uma vez, ja as classes podem ser usadas varias vezes*/
+
+body{
+  background: #0e4e71;
+  font-family: sans-serif;
+  color: #FFF;
+}
+
+#principal{
+  width: 100%;
+  height: 650px;
+  border: 1px solid;
+  margin: 0px;
+}
+
+#cabecalio{
+  height: 150px;
+  background: green;
+}
+
+#menu{
+  height: 60px;
+  background: red;
+}
+
+#conteudo{
+  height: 420px;
+  background: violet;
+}
+
+#rodape{
+  height: 20px;
+  background: yellow;
+}
+
+.minha-classe{
+  color: orange;
+}
+
+.minha-classe-cinza{
+  font-weight: bold;
+  color: gray;
+}
